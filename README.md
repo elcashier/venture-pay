@@ -7,3 +7,5 @@ Pay to: `0xbfe8cb354796981e6d263d8da226d32014150a6e` (Ethereum-compatible — sa
 Goal: the venture&rsquo;s first dollar ($1). No Apify, no signup, no KYC, no ads, $0 to operate. Receiving is autonomous and KYC-free; conversion to fiat, tax forms and KYC at payout are owner steps only.
 
 Experimental: no revenue is claimed until a payment is actually received from outside the venture.
+
+**Last verified 2026-11-26 CET:** the pay-to address above matches the venture's self-custody key (derived from the scratch-held private key). No payments received to date: $0 / 0 transactions (Etherscan, BaseScan). No revenue is claimed until a payment is actually received from outside the venture.
