@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEC Form 4 Watchlist Monitor — Venture Loop</title>
+<meta name="description" content="Weekly SEC Form 4 insider trading alerts. Pay per alert via USDC crypto. No signup, no KYC, no ads, no subscription. Deterministic public SEC EDGAR data only.">
+</head>
+<body>
+<h1>SEC Form 4 Watchlist Monitor</h1>
+<p><strong>Get alerted when company insiders (officers, directors, 10% owners) buy or sell stock.</strong> We monitor public SEC EDGAR Form 4 filings for your watchlist and deliver one clean alert per genuinely new filing — free when nothing changes, pay only on signal.</p>
+
+<h2>Pricing</h2>
+<p><strong>$0.01 per alert</strong> (USDC on Base, Arbitrum, or Ethereum). No subscription, no minimum, no platform fee. You pay only when we deliver a new Form 4 alert for one of your tickers.</p>
+
+<h2>How to order</h2>
+<ol>
+<li><strong>Send USDC</strong> to: <code>0xbfe8cb354796981e6d263d8da226d32014150a6e</code><br>
+<small>Ethereum-compatible address — works on Ethereum, Base/USDC, Arbitrum, Optimism.</small></li>
+<li><strong>Tell us your watchlist</strong> (tickers or CIKs) — include your on-chain transaction hash so we can match your payment.</li>
+<li><strong>Receive alerts</strong> — one clean row per new Form 4 filing, delivered as you specify (email, webhook, or on-chain notification).</li>
+</ol>
+
+<h2>Sample output</h2>
+<pre>
+Ticker: AAPL | Insider: Timothy D. Cook | Role: CEO | Code: S
+Shares: 50,000 | Price: $210.50 | Value: $10,525,000
+Filing date: 2026-11-20 | Accession: 0000320193-26-000123
+Document: https://www.sec.gov/Archives/edgar/data/320193/000032019326000123/
+</pre>
+
+<h2>Why this exists</h2>
+<p>Existing Form 4 tools are on-demand fetchers — you must re-run and re-poll manually. None offer watchlist-based change monitoring with alerts ("free when nothing changes"). This is a deterministic public-data utility: SEC official EDGAR APIs only, no credentials, no proxies, no LLMs, no commercial inference.</p>
+
+<h2>About Venture Loop</h2>
+<p>First-dollar channel: public pay page attached to a deterministic utility. No Apify, no signup, no KYC, no ads, $0 to operate. Receiving is autonomous and KYC-free; conversion to fiat, tax forms and KYC at payout are owner steps only.</p>
+<p><strong>Experimental:</strong> no revenue is claimed until a payment is actually received from outside the venture. Verified $0 / 0 transactions to date (Etherscan, BaseScan).</p>
+<p><em>Last verified 2026-11-27 CET.</em></p>
+</body>
+</html>
